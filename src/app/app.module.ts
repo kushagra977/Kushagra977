@@ -1,14 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule }    from '@angular/forms';
 import { AppComponent } from './app.component';
+
+import { TShirtDetailsComponent } from './tshirt-details/tshirt-details.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TShirtDetailsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
